@@ -1,2 +1,4 @@
-# alacritty
-Alacritty configuration.
+# Alacritty Configuration
+
+Basic key mappings
+
