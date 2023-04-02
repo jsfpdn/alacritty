@@ -1,17 +1,17 @@
 font:
   normal:
-    family: SF Mono
+    family: Source Code Pro
     style: Regular
   bold:
-    family: SF Mono
+    family: Source Code Pro
     style: Bold
   italic:
-    family: SF Mono
+    family: Source Code Pro
     style: Regular Italic
   bold_italic:
-    family: SF Mono
+    family: Source Code Pro
     style: Bold Italica
-  size: 13
+  size: 13.5
 key_bindings:
   - {key: Comma, mods: Command, command: {program: "sh", args: ["-c", "open ~/.config/alacritty/alacritty.yml"]}}
   - {key: N, mods: Command, action: SpawnNewInstance}
@@ -46,8 +46,8 @@ live_config_reload: true
 debug:
   persistent_logging: false
 import:
-  # https://github.com/catppuccin/alacritty
-  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+  - ~/.config/alacritty/nord/src/nord.yaml
+
 shell:
   program: /bin/zsh
   args:

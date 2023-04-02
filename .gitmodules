@@ -1,3 +1,6 @@
 [submodule "catppuccin"]
 	path = catppuccin
 	url = git@github.com:catppuccin/alacritty.git
+[submodule "nord"]
+	path = nord
+	url = git@github.com:nordtheme/alacritty.git
